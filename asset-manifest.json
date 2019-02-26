@@ -1,14 +1,14 @@
 {
-  "main.css": "/ReactPortfolio/static/css/main.0e87f18b.chunk.css",
-  "main.js": "/ReactPortfolio/static/js/main.b28e0304.chunk.js",
-  "main.js.map": "/ReactPortfolio/static/js/main.b28e0304.chunk.js.map",
+  "main.css": "/ReactPortfolio/static/css/main.f56c0c3f.chunk.css",
+  "main.js": "/ReactPortfolio/static/js/main.34e93536.chunk.js",
+  "main.js.map": "/ReactPortfolio/static/js/main.34e93536.chunk.js.map",
   "runtime~main.js": "/ReactPortfolio/static/js/runtime~main.90912ff4.js",
   "runtime~main.js.map": "/ReactPortfolio/static/js/runtime~main.90912ff4.js.map",
   "static/js/2.12cd2fd2.chunk.js": "/ReactPortfolio/static/js/2.12cd2fd2.chunk.js",
   "static/js/2.12cd2fd2.chunk.js.map": "/ReactPortfolio/static/js/2.12cd2fd2.chunk.js.map",
   "index.html": "/ReactPortfolio/index.html",
-  "precache-manifest.f325201adaf773594fe71175d4602c69.js": "/ReactPortfolio/precache-manifest.f325201adaf773594fe71175d4602c69.js",
+  "precache-manifest.aace3be3e7067cd954d146a695252350.js": "/ReactPortfolio/precache-manifest.aace3be3e7067cd954d146a695252350.js",
   "service-worker.js": "/ReactPortfolio/service-worker.js",
-  "static/css/main.0e87f18b.chunk.css.map": "/ReactPortfolio/static/css/main.0e87f18b.chunk.css.map",
-  "static/media/index.css": "/ReactPortfolio/static/media/abstract-astro-astronomy-956999.46b4c7ce.jpg"
+  "static/css/main.f56c0c3f.chunk.css.map": "/ReactPortfolio/static/css/main.f56c0c3f.chunk.css.map",
+  "static/media/index.css": "/ReactPortfolio/static/media/abstract-astro-astronomy-956999.e82d18e4.jpg"
 }
