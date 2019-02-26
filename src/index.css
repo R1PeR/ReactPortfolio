@@ -6,9 +6,169 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-attachment: fixed;
+  background-image:url("abstract-astro-astronomy-956999.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
 }
+html {
 
+  height: 101%;
+  margin-bottom: 0.01em;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h3{
+  text-align: center;
+  color:white;
+  font-family: 'Bungee', cursive;
+  font-size:3rem;
+}
+hr{
+  background-color:white;
+  height: 3px;
+  width: 100%;
+}
+.column{
+  color:white;
+  font-size:7rem;
+  text-align: center;
+  height: 200px;
+}
+i{
+  position: relative;
+  top:10px;
+}
+.column-contact{
+  color:white;
+  font-size:5rem;
+  text-align: center;
+  height: 150px;
+}
+.column-contact i{
+  top:15px;  
+
+}
+.column-text{
+  color:white;
+  font-size:2rem;
+  text-align: left;
+  height: auto;
+}
+.column-text p{
+  padding: 2rem;
+}
+.container{
+  max-width: 600px;
+}
+
+.fa-arrow-right:hover, .fa-arrow-left:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover{
+  color:grey;
+  transition: color 200ms linear;
+}
+.fa-arrow-left,.fa-arrow-right, .fa-linkedin-in, .fa-github, .fa-envelope{
+  color:white;
+  transition: color 200ms linear;
+}
+.container-page-1{
+  position:absolute;
+  top:10vh;
+}
+.container-page-2{
+  position:absolute;
+  top:10vh;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms linear 500ms;
+}
+
+/* exit */
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+.fade-exit-done {
+  opacity: 0;
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 576px){
+  .container{
+    max-width: 400px;
+  }
+  h3{
+    text-align: center;
+    color:white;
+    font-family: 'Bungee', cursive;
+    font-size:2rem;
+  }
+  .column-text{
+    color:white;
+    font-size:1.5rem;
+    text-align: left;
+    height: auto;
+  }
+  .column-text p{
+    padding: 1rem;
+  }
+  .column-contact{
+    color:white;
+    font-size:2rem;
+    text-align: center;
+    height: 75px;
+  }
+}
+@media screen and (max-width: 480px){
+  .column{
+    color:white;
+    font-size:3.5rem;
+    text-align: center;
+    height: 150px;
+  }
+  .container{
+    max-width: 300px;
+  }
+  h3{
+    text-align: center;
+    color:white;
+    font-family: 'Bungee', cursive;
+    font-size:1rem;
+  }
+  i{
+    position: relative;
+    top:30px;
+  }
+  .column-text{
+    color:white;
+    font-size:1rem;
+    text-align: left;
+    height: auto;
+  }
+  .column-text p{
+    padding: 1rem;
+  }
+  .column-contact{
+    color:white;
+    font-size:2rem;
+    text-align: center;
+    height: 75px;
+  }
+  .column-contact i {
+    position: relative;
+    top:12px;
+  }
 }
