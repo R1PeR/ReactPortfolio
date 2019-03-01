@@ -12,9 +12,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
+  height: 101%;
+  margin-bottom: 0.01em;
 }
 html {
-
   height: 101%;
   margin-bottom: 0.01em;
 }
@@ -38,6 +39,7 @@ hr{
   font-size:7rem;
   text-align: center;
   height: 200px;
+  padding:0;
 }
 i{
   position: relative;
@@ -47,11 +49,10 @@ i{
   color:white;
   font-size:5rem;
   text-align: center;
-  height: 150px;
+  height: 120px;
 }
 .column-contact i{
-  top:15px;  
-
+  top:0px;
 }
 .column-text{
   color:white;
@@ -64,8 +65,52 @@ i{
 }
 .container{
   max-width: 600px;
+  padding:0;
 }
+.column-portfolio{
+  color:white;
+  padding: 10px;
+  min-height: 300px;
+}
+.column-portfolio img{
+  margin: 0!important;
+}
+.column-portfolio .fa-github{
+  text-align: right;
+}
+.column-item *{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.column-item{
+  padding: 1rem!important;
+  color:white;
+  text-align: center;
+  height: auto;
+}
+.column-portfolio i{
+  float:right;
+  top:5px;
+}
+.column-portfolio p{
+  float:left;
 
+}
+.column-portfolio img{
+  width: 100%;
+  height: 80%;
+  margin-top:5%;
+}
+.column-portfolio-arrow{
+    color:white;
+    font-size:7rem;
+    text-align: center;
+    min-height: 300px;
+}
+.column-portfolio-arrow i{
+  top:60px;
+}
 .fa-arrow-right:hover, .fa-arrow-left:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover{
   color:grey;
   transition: color 200ms linear;
@@ -81,6 +126,16 @@ i{
 .container-page-2{
   position:absolute;
   top:10vh;
+}
+.container-page-3{
+  position:absolute;
+  top:10vh;
+}
+.row{
+  margin:0;
+}
+.col{
+  padding:0;
 }
 
 .fade-enter {
@@ -103,8 +158,13 @@ i{
 .fade-exit-done {
   opacity: 0;
 }
-
-
+.column-text{
+  padding:10px;
+}
+.column-contact i {
+  position: relative;
+  top:-3px;
+}
 
 @media screen and (min-width: 481px) and (max-width: 576px){
   .container{
@@ -130,6 +190,20 @@ i{
     font-size:2rem;
     text-align: center;
     height: 75px;
+  }
+  .column-contact i {
+    position: relative;
+    top:12px;
+  }
+  .column-portfolio{
+    height: 400px;
+  }
+  .column-portfolio-arrow{
+    height: 400px;
+    padding: 10px;
+  }
+  .column-portfolio-arrow i{
+    top: 100px;
   }
 }
 @media screen and (max-width: 480px){
@@ -163,12 +237,18 @@ i{
   }
   .column-contact{
     color:white;
-    font-size:2rem;
+    font-size:1.5rem;
     text-align: center;
-    height: 75px;
+    height: 60px;
   }
   .column-contact i {
     position: relative;
-    top:12px;
+    top:10px;
+  }
+  .column-portfolio{
+    height: 300px;
+  }
+  .column-portfolio-arrow i{
+    top: 60px;
   }
 }

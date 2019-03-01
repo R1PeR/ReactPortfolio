@@ -2,10 +2,10 @@ import React,{Component} from 'react';
 class BlackDiv extends Component{
     styles={
         position:"absolute",
-        top:this.props.top+"%",
-        left:this.props.left+"%",
-        width:this.props.width+"%",
-        height:this.props.height+"%",
+        top:this.props.top,
+        right:this.props.right,
+        bottom:this.props.bottom,
+        left:this.props.left,
         backgroundColor:'black',
         zIndex:"-1",
         opacity:0.5,
