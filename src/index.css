@@ -7,21 +7,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-attachment: fixed;
-  background-image:url("abstract-astro-astronomy-956999.jpg");
+  background-image:url("abstract-astro-astronomy-956999-compressed.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
-  height: 101%;
-  margin-bottom: 0.01em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 110vh;
 }
 html {
-  height: 101%;
-  margin-bottom: 0.01em;
+  height: 100vh;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container-wrapper{
+  height: 100%!important;
+  width: 100%!important;
 }
 h3{
   text-align: center;
@@ -120,16 +124,19 @@ i{
   transition: color 200ms linear;
 }
 .container-page-1{
-  position:absolute;
-  top:10vh;
+  position: absolute;
+  margin-top:10vh;
+  margin-bottom:10vh;
 }
 .container-page-2{
-  position:absolute;
-  top:10vh;
+  position: absolute;
+  margin-top:10vh;
+  margin-bottom:10vh;
 }
 .container-page-3{
-  position:absolute;
-  top:10vh;
+  position: absolute;
+  margin-top:10vh;
+  margin-bottom:10vh;
 }
 .row{
   margin:0;
