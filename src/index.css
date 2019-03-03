@@ -93,13 +93,14 @@ i{
   text-align: center;
   height: auto;
 }
-.column-portfolio i{
+.column-portfolio a{
   float:right;
-  top:5px;
+}
+.column-portfolio a i{
+  top:0px;
 }
 .column-portfolio p{
   float:left;
-
 }
 .column-portfolio img{
   width: 100%;
@@ -114,6 +115,11 @@ i{
 }
 .column-portfolio-arrow i{
   top:60px;
+}
+img {
+  object-fit: cover;
+  width: 280px;
+  height: 224px;
 }
 .fa-arrow-right:hover, .fa-arrow-left:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover{
   color:grey;
