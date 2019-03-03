@@ -4,9 +4,10 @@ import './App.css';
 import {Container} from 'react-bootstrap';
 //import BackgroundImage from './custom/BackgroundImageDiv'
 //import BlackDiv from './custom/BlackDiv'
-import Home from './pages/home'
-import About from './pages/about'
-import Portfolio from './pages/portfolio'
+import Home from './pages/Home'
+import About from './pages/About'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
 //import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import {animateScroll as scroll} from 'react-scroll';
@@ -44,6 +45,10 @@ class App extends Component {
       case 3:
         return(
           <Portfolio handle={this.handleToggleClick}/>
+        )
+      case 4:
+        return(
+          <Contact handle={this.handleToggleClick}/>
         )
       default:
           return(
