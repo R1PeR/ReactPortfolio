@@ -1,14 +1,18 @@
 {
-  "main.css": "/ReactPortfolio/static/css/main.77b32ca2.chunk.css",
-  "main.js": "/ReactPortfolio/static/js/main.cf099f26.chunk.js",
-  "main.js.map": "/ReactPortfolio/static/js/main.cf099f26.chunk.js.map",
+  "main.css": "/ReactPortfolio/static/css/main.eeb136ee.chunk.css",
+  "main.js": "/ReactPortfolio/static/js/main.19107769.chunk.js",
+  "main.js.map": "/ReactPortfolio/static/js/main.19107769.chunk.js.map",
   "runtime~main.js": "/ReactPortfolio/static/js/runtime~main.90912ff4.js",
   "runtime~main.js.map": "/ReactPortfolio/static/js/runtime~main.90912ff4.js.map",
-  "static/js/2.4f2d67ab.chunk.js": "/ReactPortfolio/static/js/2.4f2d67ab.chunk.js",
-  "static/js/2.4f2d67ab.chunk.js.map": "/ReactPortfolio/static/js/2.4f2d67ab.chunk.js.map",
+  "static/js/2.86ba6911.chunk.js": "/ReactPortfolio/static/js/2.86ba6911.chunk.js",
+  "static/js/2.86ba6911.chunk.js.map": "/ReactPortfolio/static/js/2.86ba6911.chunk.js.map",
   "index.html": "/ReactPortfolio/index.html",
-  "precache-manifest.ce2c4e658124d8f15cd0d68d7172a464.js": "/ReactPortfolio/precache-manifest.ce2c4e658124d8f15cd0d68d7172a464.js",
+  "precache-manifest.111ab3aa1eef2865343c1c6349d70ae8.js": "/ReactPortfolio/precache-manifest.111ab3aa1eef2865343c1c6349d70ae8.js",
   "service-worker.js": "/ReactPortfolio/service-worker.js",
-  "static/css/main.77b32ca2.chunk.css.map": "/ReactPortfolio/static/css/main.77b32ca2.chunk.css.map",
-  "static/media/index.css": "/ReactPortfolio/static/media/abstract-astro-astronomy-956999-compressed.92409c99.jpg"
+  "static/css/main.eeb136ee.chunk.css.map": "/ReactPortfolio/static/css/main.eeb136ee.chunk.css.map",
+  "static/media/index.css": "/ReactPortfolio/static/media/abstract-astro-astronomy-956999-compressed.92409c99.jpg",
+  "static/media/portfolio_1.jpg": "/ReactPortfolio/static/media/portfolio_1.2ca1e367.jpg",
+  "static/media/portfolio_2.jpg": "/ReactPortfolio/static/media/portfolio_2.37b52160.jpg",
+  "static/media/portfolio_3.jpg": "/ReactPortfolio/static/media/portfolio_3.e82852c4.jpg",
+  "static/media/portfolio_4.jpg": "/ReactPortfolio/static/media/portfolio_4.138a9e56.jpg"
 }
